@@ -1,5 +1,3 @@
-import java.util.Scanner
-
 fun main() {
 
     // method 1 using readln function
@@ -10,10 +8,8 @@ fun main() {
 
     // method 2 using Scanner module
 
-    val number1 = Scanner(System.`in`)
+    val number1 = java.util.Scanner(System.`in`)
     print("Enter an integer: ")
-    val enterednumber1:Int = number1.nextInt()
-    println("You entered: $enterednumber1")
-
-    // best practice for taking input in kotlin is to use method of using readln function
+    val enterNumber:Int = number1.nextInt()
+    println("You entered: $enterNumber")
 }
