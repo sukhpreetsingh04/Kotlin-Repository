@@ -1,7 +1,5 @@
 package conditionals
 
-import java.util.Scanner
-
 /*
 There are different types of if-else expressions in Kotlin:
 1. IF Statement
@@ -42,10 +40,8 @@ fun main() {
 //    }
 //    print(max)
 
-    val reader = Scanner(System.`in`)
-
 //    print("Enter any number: ")
-//    var num = reader.nextInt()
+//    var num = readln()
 //
 //    var result  = if ( num > 0){
 //        "$num is positive number"
@@ -60,9 +56,9 @@ fun main() {
 
     print("Enter three numbers: ")
 
-    var num1 = reader.nextInt()
-    var num2 = reader.nextInt()
-    var num3 = reader.nextInt()
+    var num1 = readln()
+    var num2 = readln()
+    var num3 = readln()
 
     var max  = if ( num1 > num2) {
         if (num1 > num3) {
